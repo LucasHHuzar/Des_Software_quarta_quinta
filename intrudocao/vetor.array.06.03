@@ -1,0 +1,19 @@
+public class arrays {
+    
+    public static void main(String[] args) {
+        //Declaração de arrays
+        String[] cidades = new String[10];
+        var temperaturas = new double[10];
+
+        for (int i = 0; i < cidades.length; i++) 
+            cidades[i] = "Elemento " + i;
+
+        for (int i = 0; i < temperaturas.length; i++) 
+            temperaturas[i] = Math.round(Math.random() * 42);
+
+        for (int i = 0; i < 10; i++) 
+            System.out.println(cidades[i] + ": " + temperaturas[i]);
+        
+    }
+
+}
