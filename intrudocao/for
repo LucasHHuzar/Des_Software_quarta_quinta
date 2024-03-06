@@ -1,0 +1,24 @@
+public class repetidores2 {
+    
+    public static void main(String[] args) {
+        
+        String[] arrays = {"Curitiba", "Londrina", "Ponta Grossa"};
+        
+        for (String cidades : arrays) {
+            System.out.println(cidades);
+        }
+        
+        /*
+        for (int i = 0; i < arrays.length; i++) {
+            String name = arrays[i];
+
+            //Especificamente em Java, quando só tem uma linha de código no if, eu não preciso das chaves.
+            if (name.equals("Londrina"))
+                break;
+            
+            System.out.println(arrays[i].toUpperCase());
+        }
+         */
+    }
+
+}
