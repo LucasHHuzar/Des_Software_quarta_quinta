@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+/**
+ * Resolução da atividade 6 na aula de métodos
+ */
+public class atvmetodo {
+
+    /**
+     * Método principal de classes
+     * @param args
+     */
+    public static void main(String[] args) {
+        numero();
+    }
+    
+    /**
+     * Método responsável por ler o numero
+     */
+    public static void numero() {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite um número: ");
+        var num = scanner.nextInt();
+
+        //Chamar o método da multiplicação
+        multi(num);
+
+        //Tranformei o método da multiplicação, para poder fazer a impressão da conta feita no mesmo
+        int resultado = multi(num);
+
+        System.out.println("Número retornado: " + resultado);
+    }
+    
+    /**
+     * Método responsável pela multiplicação
+     */
+    public static int multi(int num) {
+        int resultado = num * 10;
+        return resultado;
+    }
+}
