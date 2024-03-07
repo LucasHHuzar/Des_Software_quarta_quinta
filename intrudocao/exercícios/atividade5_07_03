@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+/**
+ * Resolução da atividade 5 na aula de métodos
+ */
+public class atvmetodo {
+
+    /**
+     * Método principal de classes
+     * @param args
+     */
+    public static void main(String[] args) {
+        pessoa();
+    }
+    
+    /**
+     * Método responsável por ler o nome
+     */
+    public static void pessoa() {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Qual seu nome: ");
+        var nome = scanner.nextLine();
+
+        //Chamar método para concatenar o método
+        chamarNome(nome);
+    }
+
+    public static void chamarNome(String nome) {
+
+        System.out.println("Olá " + nome + "!");
+
+    }
+}
