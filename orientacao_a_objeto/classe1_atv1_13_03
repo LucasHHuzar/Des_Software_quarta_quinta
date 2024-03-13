@@ -1,0 +1,35 @@
+package br.edu.up.modelos;
+
+import java.util.Scanner;
+
+public class Atv1 {
+
+    public void atividade1() {
+
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Informe seu nome: ");
+        String nome = scanner.nextLine();
+
+        System.out.println("Informe a matrícula: ");
+        String matricula = scanner.nextLine();
+
+        System.out.println("Informe a Nota 1: ");
+        Double nota1 = scanner.nextDouble();
+
+        System.out.println("Informe a nota 2: ");
+        Double nota2 = scanner.nextDouble();
+
+        Double notaFinal = (nota1 + nota2) /2;
+    
+            if (notaFinal >= 6){
+                System.out.println("Aprovado!");
+            } else {
+                System.out.println("Reprovado!");
+            }
+
+            scanner.close();
+       
+    }
+
+}
