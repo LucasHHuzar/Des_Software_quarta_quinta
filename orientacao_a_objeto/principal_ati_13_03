@@ -1,0 +1,43 @@
+package br.edu.up;
+
+import java.util.Scanner;
+
+import br.edu.up.modelos.Atv1;
+import br.edu.up.modelos.Atv2;
+
+/**
+ * Principal
+ */
+
+public class Principal {
+    
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        Atv1 at = new Atv1();
+        Atv2 atividade2 = new Atv2();
+
+        System.out.println("Qual exercício você quer fazer (1 ou 2)?");
+        int exercicio = scanner.nextInt();
+
+        switch (exercicio) {
+
+            case 1:
+                at.atividade1();
+                break;
+
+            case 2:
+                atividade2.atividade2();
+                break;
+        
+            default:
+                System.out.println("Digite número entre 1 e 2");
+                break;
+        }
+
+        scanner.close();
+
+    }
+
+}
