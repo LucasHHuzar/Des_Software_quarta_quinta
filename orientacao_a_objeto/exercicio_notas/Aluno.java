@@ -16,7 +16,7 @@ public class Aluno {
     }
 
     //Métodos para definir as notas
-    public void notas(Double nota1){
+    public void n1(Double nota1){
         this.nota1 = nota1;
     }
 
