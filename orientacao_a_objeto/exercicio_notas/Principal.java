@@ -23,15 +23,15 @@ public class Principal {
         // Pedindo ao usuário as notas do aluno
         System.out.print("Digite a primeira nota: ");
         double nota1 = scanner.nextDouble();
-        alunos.notas(nota1);
+        alunos.n1(nota1);
 
         System.out.print("Digite a segunda nota: ");
         double nota2 = scanner.nextDouble();
-        alunos.notas(nota2);
+        alunos.n2(nota2);
 
         System.out.print("Digite a terceira nota: ");
         double nota3 = scanner.nextDouble();
-        alunos.notas(nota3);
+        alunos.n3(nota3);
 
         // Verificando se o aluno passou de ano
         if (alunos.passouDeAno()) {
