@@ -1,0 +1,59 @@
+//Escrever um programa que leia os dados de “N” pessoas (nome, sexo,
+//idade e saúde) e informe se está apta ou não para cumprir o serviço militar
+//obrigatório. Informe os totais.
+
+package br.edu.up.Atividades;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Pessoa {
+    
+    public String nome = new String();
+    public String sexo = new String();
+    public int idade;
+    public int saude;
+    public int apto;
+
+    public void alimentar() throws IOException{
+        Scanner scanner = new Scanner(System.in);
+
+        String resposta = "Sim";
+
+        do { 
+                System.out.println("==========================");
+
+                System.out.print("Digite seu nome: ");
+                nome = scanner.nextLine();
+
+                System.out.print("Digite seu sexo: ");
+                sexo = scanner.nextLine();
+
+                System.out.print("Digite sua idade: ");
+                idade = scanner.nextInt();
+
+                System.out.print("Digite como esta seu estado de saude (1 para ruim e 5 para excelente): ");
+                saude = scanner.nextInt();
+
+                System.out.println(" ");
+
+                if (idade >= 18 && saude > 3) {
+                    System.out.println("Você está apto para cumprir o serviço militar obrigatório, parabéns!");
+
+                    apto++;
+
+                }else{
+                    System.out.println("Você não está apto para cumprir o serviço militar obrigatório, obrigado por tentar!");
+                }
+
+                System.out.println("==========================");
+
+                System.out.println("Deseja continuar(Sim/Não)?");
+                resposta = scanner.nextLine();
+
+        } while(resposta.equals("Sim"));
+            
+        scanner.close();
+    }
+    
+}
