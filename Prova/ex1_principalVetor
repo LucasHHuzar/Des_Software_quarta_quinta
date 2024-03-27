@@ -1,0 +1,17 @@
+package br.edu.up;
+
+import java.io.IOException;
+
+import br.edu.up.Atividades.Numeros;
+
+public class PrincipalNumeros {
+    public static void main(String[] args) throws IOException {
+        
+        Numeros num = new Numeros();
+
+        num.alimentar();
+
+        num.imprimirResultado();
+
+    }
+}
