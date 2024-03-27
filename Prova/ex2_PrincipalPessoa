@@ -1,0 +1,16 @@
+package br.edu.up;
+
+import java.io.IOException;
+
+import br.edu.up.Atividades.Pessoa;
+
+public class PrincipalPessoa {
+
+    public static void main(String[] args) throws IOException{
+        
+        Pessoa pessoas = new Pessoa();
+
+        pessoas.alimentar();
+
+    }
+}
