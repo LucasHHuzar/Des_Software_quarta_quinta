@@ -1,0 +1,72 @@
+//A escola “APRENDER” faz o pagamento de seus professores por
+//hora/aula. Faça um programa que calcule e exiba o salário de um professor.
+//Sabe-se que o valor da hora/aula segue a tabela abaixo:
+//Professor Nível 1 R$ 12,00 por hora/aula
+//Professor Nível 2 R$ 17,00 por hora/aula
+//Professor Nível 3 R$ 25,00 por hora/aula
+
+
+package br.edu.up.Atividades;
+
+import java.util.Scanner;
+
+public class Professor {
+
+    Scanner scanner = new Scanner(System.in);
+
+    public Double hora;
+    public Double p1 = 12.00;
+    public Double p2 = 17.00;
+    public Double p3 = 25.00;
+
+    public void p1(){
+        this.p1 = p1 * hora;
+        System.out.println("O professor esse mês vai receber R$ " + this.p1);
+    }
+    
+    public void p2(){
+        this.p2 = p2 * hora;
+        System.out.println("O professor esse mês vai receber R$ " + this.p2);
+    }
+    
+    public void p3(){
+        this.p3 = p3 * hora;
+        System.out.println("O professor esse mês vai receber R$ " + this.p3);
+    }
+
+    public void imprimirResultado(){
+            
+        System.out.print("Quantas horas no mês tem o professor?");
+        hora = scanner.nextDouble();
+            
+        System.out.println("==========================");
+        System.out.println("Qual o nível do professor?");
+        System.out.println("1 - R$ 12,00 por hora/aula");
+        System.out.println("2 - R$ 17,00 por hora/aula");
+        System.out.println("3 - R$ 25,00 por hora/aula");
+        System.out.println("==========================");
+        var op = scanner.nextInt();
+            
+        switch (op) {
+
+            case 1:
+                this.p1();
+                break;
+            case 2:
+                this.p2();
+                break;
+            case 3:
+                this.p3();
+                break;
+                
+            default:
+                System.out.println("Tente outro número!");
+                break;
+
+        }
+            
+        scanner.close();
+    }
+        
+        
+}
