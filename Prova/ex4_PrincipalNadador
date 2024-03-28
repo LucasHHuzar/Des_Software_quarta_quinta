@@ -1,0 +1,17 @@
+package br.edu.up;
+
+import java.io.IOException;
+
+import br.edu.up.Atividades.Nadador;
+
+public class PrincipalNadador {
+    
+    public static void main(String[] args) throws IOException{
+        
+        Nadador nada = new Nadador();
+
+        nada.verificarIdade();
+
+
+    }
+}
