@@ -1,0 +1,15 @@
+package br.edu.up;
+
+import java.io.IOException;
+
+import br.edu.up.Atividades.Professor;
+
+public class PrincipalProfessor {
+    public static void main(String[] args) throws IOException {
+        
+        Professor profe = new Professor();
+
+        profe.imprimirResultado();
+
+    }
+}
