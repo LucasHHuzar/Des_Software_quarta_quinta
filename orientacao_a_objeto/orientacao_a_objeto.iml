@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Aula07" isTestSource="false" packagePrefix="br.edu.up" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_relacoes" isTestSource="false" packagePrefix="br.edu.up.relacoes.associacao.modelos" />
+      <sourceFolder url="file://$MODULE_DIR$/ExerciciosClasse" isTestSource="false" packagePrefix="Aula1Orientacao.Principais.Encapsulamento" />
+      <sourceFolder url="file://$MODULE_DIR$/Herança" isTestSource="false" packagePrefix="br.edu.up.heranca.modelo" />
+      <sourceFolder url="file://$MODULE_DIR$/aula2_exer1" isTestSource="false" packagePrefix="br.edu.cs.atividades" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio_carro" isTestSource="false" packagePrefix="br.edu.up.Atividades" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio_notas" isTestSource="false" packagePrefix="br.edu.up.Atividades" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

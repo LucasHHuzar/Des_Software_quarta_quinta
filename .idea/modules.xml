@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AulasAnteriores/AulasAnteriores.iml" filepath="$PROJECT_DIR$/AulasAnteriores/AulasAnteriores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AulasAnteriores/Collections/Collections.iml" filepath="$PROJECT_DIR$/AulasAnteriores/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desenvolvimento_Software_Quarta_Quinta.iml" filepath="$PROJECT_DIR$/Desenvolvimento_Software_Quarta_Quinta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Excecoes/Excecoes.iml" filepath="$PROJECT_DIR$/Excecoes/Excecoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AulasAnteriores/exercicios-heranca/exercicios-heranca.iml" filepath="$PROJECT_DIR$/AulasAnteriores/exercicios-heranca/exercicios-heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AulasAnteriores/heranca/heranca.iml" filepath="$PROJECT_DIR$/AulasAnteriores/heranca/heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orientacao_a_objeto/orientacao_a_objeto.iml" filepath="$PROJECT_DIR$/orientacao_a_objeto/orientacao_a_objeto.iml" />
+    </modules>
+  </component>
+</project>
